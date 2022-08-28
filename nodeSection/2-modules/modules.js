@@ -7,9 +7,9 @@
 // A set of functiA set of functions you want to include in your application.ons you want to include in your application.
 
 const names = require('./2-names-module')
-const sayHi = require('./5-util-modules')
+const sayHi = require('./3-util-modules')
 
-const data = require('./6-alternative-flavour')
+const data = require('./4-alternative-flavour')
 console.log(data) // { items: [ 'item1', 'item2' ], singlePerson: { name: 'Bob' } }
 
 
@@ -17,4 +17,4 @@ sayHi("Susan");
 sayHi(names.john);
 sayHi(names.peter);
 
-require('./7-mind-grenade')
+require('./5-mind-grenade')
