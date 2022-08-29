@@ -1,32 +1,31 @@
-npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
+#### npm 
+is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
 
 npm consists of three distinct components:
 
-    the website
-    the Command Line Interface (CLI)
-    the registry
+    - the website
+    - the Command Line Interface (CLI)
+    - the registry
     
 
-Use npm to . . .
+#### Use npm to . . .
 
-    Adapt packages of code for your apps, or incorporate packages as they are.
-    Download standalone tools you can use right away.
-    Run packages without downloading using npx.
-    Share code with any npm user, anywhere.
-    Restrict code to specific developers.
-    Create organizations to coordinate package maintenance, coding, and developers.
-    Form virtual teams by using organizations.
-    Manage multiple versions of code and code dependencies.
-    Update applications easily when underlying code is updated.
-    Discover multiple ways to solve the same puzzle.
-    Find other developers who are working on similar problems and projects. 
+    * Adapt packages of code for your apps, or incorporate packages as they are.
+    * Download standalone tools you can use right away.
+    * Run packages without downloading using npx.
+    * Share code with any npm user, anywhere.
+    * Restrict code to specific developers.
+    * Create organizations to coordinate package maintenance, coding, and developers.
+    * Form virtual teams by using organizations.
+    * Manage multiple versions of code and code dependencies.
+    * Update applications easily when underlying code is updated.
+    * Discover multiple ways to solve the same puzzle.
+    * Find other developers who are working on similar problems and projects. 
     
 <!-- REF => https://docs.npmjs.com/about-npm -->
 
 
-npx(1) -- execute npm package binaries
-
-DESCRIPTION
+### npx
 
 Executes <command> either from a local node_modules/.bin, or from a central cache, installing any packages needed in order for <command> to run.
 
@@ -61,7 +60,7 @@ If a full specifier is included, or if --package is used, npx will always use a 
 <!--  REF https://www.npmjs.com/package/npx -->
 
 
-nodemon
+### nodemon
 
 nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
