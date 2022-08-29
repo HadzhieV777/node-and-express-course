@@ -22,7 +22,7 @@ npm consists of three distinct components:
     * Discover multiple ways to solve the same puzzle.
     * Find other developers who are working on similar problems and projects. 
     
-<!-- REF => https://docs.npmjs.com/about-npm -->
+###### REF => https://docs.npmjs.com/about-npm 
 
 
 ### npx
@@ -57,7 +57,7 @@ If a full specifier is included, or if --package is used, npx will always use a 
 
     -v, --version - Show the current npx version.
 
-<!--  REF https://www.npmjs.com/package/npx -->
+###### REF https://www.npmjs.com/package/npx
 
 
 ### nodemon
@@ -66,4 +66,4 @@ nodemon is a tool that helps develop Node.js based applications by automatically
 
 nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your script.
 
-<!-- REF => https://www.npmjs.com/package/nodemon -->
+###### REF => https://www.npmjs.com/package/nodemon 
