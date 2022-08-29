@@ -59,3 +59,12 @@ If a full specifier is included, or if --package is used, npx will always use a 
     -v, --version - Show the current npx version.
 
 <!--  REF https://www.npmjs.com/package/npx -->
+
+
+nodemon
+
+nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your script.
+
+<!-- REF => https://www.npmjs.com/package/nodemon -->
