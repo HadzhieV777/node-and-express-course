@@ -1,9 +1,9 @@
-Node.js - Event Emitter
+## Node.js - Event Emitter
 
 Many objects in a Node emit events, for example, a net.Server emits an event each time a peer connects to it, an fs.readStream emits an event when the file is opened. All objects which emit events are the instances of events.EventEmitter.
 
 
-Method & Description
+## Method & Description
 1 	
 
 addListener(event, listener)
@@ -63,4 +63,4 @@ Synchronously calls each of the listeners registered for the event named eventNa
 
 Returns true if the event had listeners, false otherwise.
 
-<!-- REF => https://www.tutorialspoint.com/nodejs/nodejs_event_emitter.htm -->
+REF => https://www.tutorialspoint.com/nodejs/nodejs_event_emitter.htm 
