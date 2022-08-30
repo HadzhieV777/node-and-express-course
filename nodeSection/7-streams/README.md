@@ -43,4 +43,8 @@ The highWaterMark option is a threshold, not a limit: it dictates the amount of 
 
 Because Duplex and Transform streams are both Readable and Writable, each maintains two separate internal buffers used for reading and writing, allowing each side to operate independently of the other while maintaining an appropriate and efficient flow of data. For example, net.Socket instances are Duplex streams whose Readable side allows consumption of data received from the socket and whose Writable side allows writing data to the socket. Because data may be written to the socket at a faster or slower rate than data is received, each side should operate (and buffer) independently of the other.
 
+<<<<<<< Updated upstream
 REF => https://nodejs.org/api/stream.html
+=======
+REF => https://nodejs.org/api/stream.html
+>>>>>>> Stashed changes
