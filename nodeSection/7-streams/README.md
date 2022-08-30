@@ -1,20 +1,20 @@
-Types of streams
-#
+### Types of streams
+
 
 There are four fundamental stream types within Node.js:
 
-    Writable: streams to which data can be written (for example, fs.createWriteStream()).
+    - Writable: streams to which data can be written (for example, fs.createWriteStream()).
     
-    Readable: streams from which data can be read (for example, fs.createReadStream()).
+    - Readable: streams from which data can be read (for example, fs.createReadStream()).
     
-    Duplex: streams that are both Readable and Writable (for example, net.Socket).
+    - Duplex: streams that are both Readable and Writable (for example, net.Socket).
     
-    Transform: Duplex streams that can modify or transform the data as it is written and read (for example, zlib.createDeflate()).
+    - Transform: Duplex streams that can modify or transform the data as it is written and read (for example, zlib.createDeflate()).
 
 Additionally, this module includes the utility functions stream.pipeline(), stream.finished(), stream.Readable.from() and stream.addAbortSignal().
 
-Streams Promises API
-#
+### Streams Promises API
+
 Added in: v15.0.0
 
 The stream/promises API provides an alternative set of asynchronous utility functions for streams that return Promise objects rather than using callbacks. The API is accessible via require('node:stream/promises') or require('node:stream').promises.
@@ -27,7 +27,7 @@ Stream instances are switched into object mode using the objectMode option when 
 Buffering
 #
 
-Both Writable and Readable streams will store data in an internal buffer.
+### Both Writable and Readable streams will store data in an internal buffer.
 
 The amount of data potentially buffered depends on the highWaterMark option passed into the stream's constructor. For normal streams, the highWaterMark option specifies a total number of bytes. For streams operating in object mode, the highWaterMark specifies a total number of objects.
 
@@ -43,4 +43,4 @@ The highWaterMark option is a threshold, not a limit: it dictates the amount of 
 
 Because Duplex and Transform streams are both Readable and Writable, each maintains two separate internal buffers used for reading and writing, allowing each side to operate independently of the other while maintaining an appropriate and efficient flow of data. For example, net.Socket instances are Duplex streams whose Readable side allows consumption of data received from the socket and whose Writable side allows writing data to the socket. Because data may be written to the socket at a faster or slower rate than data is received, each side should operate (and buffer) independently of the other.
 
-<!-- REF => https://nodejs.org/api/stream.html -->
+REF => https://nodejs.org/api/stream.html
