@@ -15,22 +15,22 @@ The port numbers are divided into three ranges: the well-known ports, the regist
 ###### The well-known ports (also known as system ports)
 are those numbered from 0 through 1023. The requirements for new assignments in this range are stricter than for other registrations.[2]
 Notable well-known port numbers Number Assignment
-20 File Transfer Protocol (FTP) Data Transfer
-21 File Transfer Protocol (FTP) Command Control
-22 Secure Shell (SSH) Secure Login
-23 Telnet remote login service, unencrypted text messages
-25 Simple Mail Transfer Protocol (SMTP) email delivery
-53 Domain Name System (DNS) service
-67, 68 Dynamic Host Configuration Protocol (DHCP)
-80 Hypertext Transfer Protocol (HTTP) used in the World Wide Web
-110 Post Office Protocol (POP3)
-119 Network News Transfer Protocol (NNTP)
-123 Network Time Protocol (NTP)
-143 Internet Message Access Protocol (IMAP) Management of digital mail
-161 Simple Network Management Protocol (SNMP)
-194 Internet Relay Chat (IRC)
-443 HTTP Secure (HTTPS) HTTP over TLS/SSL
-546, 547 DHCPv6 IPv6 version of DHCP
+- 20 File Transfer Protocol (FTP) Data Transfer
+- 21 File Transfer Protocol (FTP) Command Control
+- 22 Secure Shell (SSH) Secure Login
+- 23 Telnet remote login service, unencrypted text messages
+- 25 Simple Mail Transfer Protocol (SMTP) email delivery
+- 53 Domain Name System (DNS) service
+- 67, 68 Dynamic Host Configuration Protocol (DHCP)
+- 80 Hypertext Transfer Protocol (HTTP) used in the World Wide Web
+- 110 Post Office Protocol (POP3)
+- 119 Network News Transfer Protocol (NNTP)
+- 123 Network Time Protocol (NTP)
+- 143 Internet Message Access Protocol (IMAP) Management of digital mail
+- 161 Simple Network Management Protocol (SNMP)
+- 194 Internet Relay Chat (IRC)
+- 443 HTTP Secure (HTTPS) HTTP over TLS/SSL
+- 546, 547 DHCPv6 IPv6 version of DHCP
 
 The registered ports are those from 1024 through 49151. IANA maintains the official list of well-known and registered ranges.[3]
 
