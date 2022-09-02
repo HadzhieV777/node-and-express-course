@@ -12,7 +12,8 @@ IANA is responsible for the global coordination of the DNS root, IP addressing, 
 
 The port numbers are divided into three ranges: the well-known ports, the registered ports, and the dynamic or private ports.
 
-The well-known ports (also known as system ports) are those numbered from 0 through 1023. The requirements for new assignments in this range are stricter than for other registrations.[2]
+###### The well-known ports (also known as system ports)
+are those numbered from 0 through 1023. The requirements for new assignments in this range are stricter than for other registrations.[2]
 Notable well-known port numbers Number Assignment
 20 File Transfer Protocol (FTP) Data Transfer
 21 File Transfer Protocol (FTP) Command Control
