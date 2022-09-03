@@ -18,6 +18,6 @@ REF => https://dev.to/codewithtee/server-side-rendering-ssr-vs-client-side-rende
 
 ##                   API vs SSR
 
-API - JSON                     SSR - Template
-Send Data                      Send Template
-res.JSON()                     res.render
+- API - JSON                    - SSR - Template
+- Send Data                     - Send Template
+- res.JSON()                    - res.render
