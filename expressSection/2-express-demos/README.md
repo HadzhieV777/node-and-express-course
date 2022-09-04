@@ -35,3 +35,7 @@ Parameters: The root parameter describes the root directory from which to serve 
 
 
 Static file is a file that server doesn't need to change.
+
+
+
+Require REF => https://nodejs.org/en/knowledge/getting-started/what-is-require/
