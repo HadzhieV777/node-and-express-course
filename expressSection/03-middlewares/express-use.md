@@ -1,4 +1,4 @@
-The `app.use()` Function in Express
+## The `app.use()` Function in Express
 
 Express apps have a use() function. This function adds a new middleware to the app.
 
