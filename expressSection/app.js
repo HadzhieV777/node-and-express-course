@@ -1,12 +1,10 @@
 const express = require("express");
 const app = express();
-const logger = require("./logger.js");
-// req => middleware => res
 
-// Apply middleware to the middleware stack in the app for each route
-// Order is very important!
-// We can ommit paths
-app.use(logger)
+const logger = require("./logger.js");
+const authorize = require('./authorize.js')
+
+app.use([logger, authorize])
 
 app.get("/", (req, res) => {
   res.send("Home Page"); // GET / 2022
