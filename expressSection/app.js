@@ -18,6 +18,10 @@ app.get("/api/products", (req, res) => {
 });
 
 // Single product
+app.get('/api/products/:productId', (req, res) => {
+    const singleProduct = products.find((product) => product.id === 1)
+    res.json(singleProduct)
+})
 
 
 app.listen(5000, () => {
