@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const logger = require("./logger.js");
+const logger = require("../logger.js");
 // req => middleware => res
 
 // Apply middleware to the middleware stack in the app for each route
