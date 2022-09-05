@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
-let { people } = require("./data");
+
+const people = require('./routes/people.js')
+const auth = require('./routes/auth.js')
 
 // Static assets
 app.use(express.static("./methods-public"));
@@ -11,14 +13,10 @@ app.use(express.urlencoded({ extended: false }));
 // Parse json
 app.use(express.json());
 
+//  Endpoints
+app.use('/api/people', people)
+app.use('/login', auth)
 
-app.post("/login", (req, res) => {
-    const { name } = req.body;
-    if (name) {
-      return res.status(200).send(`Welcome ${name}`);
-    }
-    res.status(401).send("Please provide credentials!");
-  });
 
 app.listen(5000, () => {
   console.log("Server is listening on port 5000...");
